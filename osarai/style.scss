@@ -1,0 +1,15 @@
+.parent{
+  color: blue;
+
+  & > .element{
+    color: purple;
+
+    &.secound-child{
+      color: black;
+    }
+  }
+}
+
+.element{
+  color: red;
+}
