@@ -9,10 +9,13 @@
   padding: 10px 40px;
   margin: 50px 0;
   font-weight: 600;
-  cursor: pointer !important;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-
-.mouseon_cursor {
-  cursor: pointer !important;
+.btn:hover {
+  background-color: black;
+  color: white;
 }
+/*# sourceMappingURL=stylesheet.css.map */
