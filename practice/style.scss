@@ -1,0 +1,58 @@
+$cBlack: black;
+$cWhite: white;
+
+#container {
+  text-align: center;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; //中央
+}
+
+.btn {
+  border: 2px solid $cBlack;
+  width: 300px;
+  margin: 10px auto;
+  padding: 10px 40px;
+  background-color: $cWhite;
+  color: $cBlack;
+  border: 1px solid $cBlack;
+  padding: 10px 40px;
+  margin: 50px 0;
+  font-weight: 600;
+  cursor: pointer; //カーソルで指に変化
+  transition: all 0.3s; //hoverしたときの変化
+
+  &.btn1:hover {
+    background-color: $cBlack;
+    color: $cWhite;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+  &.btn2 {
+    background-color: $cBlack;
+    color: $cWhite;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 50);
+    &:hover{
+      background-color: $cWhite;
+      color: $cBlack;
+      box-shadow: none;
+    }
+  }
+  &.btn3:hover {
+    background-color: $cBlack;
+    letter-spacing: 3px;//文字の間隔を広げる
+    color: $cWhite;
+  }
+  &.btn4:hover {
+    transform: translate(-2.5px, -2.5px);
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 50);
+  }
+  &.btn5{
+    box-shadow: 2px 2px 0 0 $cBlack;
+    border-radius: 7px;//縁を丸く
+    &:hover{
+      transform: translate(2px, 2px);//動かす
+      box-shadow: none;//shadowをなしに
+    }
+  }
+}

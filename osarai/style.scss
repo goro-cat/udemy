@@ -1,5 +1,7 @@
+$cBlue: blue;
+
 .parent{
-  color: blue;
+  color: $cBlue;
 
   & > .element{
     color: purple;
