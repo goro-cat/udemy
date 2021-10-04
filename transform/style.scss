@@ -1,0 +1,13 @@
+.rect{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: orangered;
+  transform: translate(50px 50px);//(x y)軸マイナス・パーセント指定可100％一個分translateX(100%)も指定可
+  transform: rotate(30deg);//右方向に回転（－で左方向）
+  transform-origin: center center;//(回転の軸指定)
+  transform: skew(-30deg);//斜めにする
+  transform: skewY(-30deg);
+  transform: scale(2, 1.1);//大きさが倍にwidth,heightに掛るため0だとなくなる
+  transform: translateX(50px) scaleY(2);//複数指定
+}

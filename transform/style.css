@@ -1,0 +1,21 @@
+.rect {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: orangered;
+  -webkit-transform: translate(50px 50px);
+          transform: translate(50px 50px);
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-transform: skew(-30deg);
+          transform: skew(-30deg);
+  -webkit-transform: skewY(-30deg);
+          transform: skewY(-30deg);
+  -webkit-transform: scale(2, 1.1);
+          transform: scale(2, 1.1);
+  -webkit-transform: translateX(50px) scaleY(2);
+          transform: translateX(50px) scaleY(2);
+}
+/*# sourceMappingURL=style.css.map */
