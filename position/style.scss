@@ -46,9 +46,9 @@ $cWhite: white;
       z-index: -1;
     }
 
-  //  &.btn{
-  //    z-index: 1;
-  //  }
+   &.btn{
+     z-index: 1;
+   }
 
     &:hover {
       color: $cWhite;
@@ -58,8 +58,8 @@ $cWhite: white;
     }
   }
 
-  // &:hover{
-  //   background-color: $cBlack;
-  //   color: $cWhite;
-  // }
+  &:hover{
+    background-color: $cBlack;
+    color: $cWhite;
+  }
 }
